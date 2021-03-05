@@ -1,0 +1,46 @@
+.nav-item{
+    transition: all .4s;
+}
+.nav-item:hover{
+    border-bottom: 2px solid white;
+    transition: all .4s;
+    padding-top: 5rem;
+}
+nav{
+    box-shadow: 2px -2px 0 5px blue;
+}
+.home{
+    background-image: linear-gradient(to right bottom ,blue ,lightgreen);
+    height: 712px;
+}
+
+#btn1{
+    padding-left: 95px;
+    padding-right: 95px;
+    font-size: 34px;
+}
+.card-img-top{
+    min-height: 300px;
+    max-height: 300px;
+}
+.img1{
+    transform:translateY(-200px) ;
+}
+.btn-show{
+    background-image: linear-gradient(to right bottom ,blue ,lightgreen);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.card:hover{
+    transition: all .4s;
+    box-shadow: 2px 1px 2px 3px rgba(0, 0, 255, 0.541);
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color:#222;
+}
